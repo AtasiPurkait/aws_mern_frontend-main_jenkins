@@ -14,7 +14,7 @@ export default defineConfig({
   },
   define: {
     'import.meta.env.VITE_API_URL': JSON.stringify(
-      globalThis.process?.env?.VITE_API_URL || 'http://34.227.161.59/:5000'
+      globalThis.process?.env?.VITE_API_URL || 'http://34.227.161.59:5000'
     ),
   },
 })
